@@ -1,0 +1,82 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Indian Institute of Technology Jammu (IIT-Jammu)",
+      "description": "Established in 2016, is a leading institute of national importance dedicated to excellence in education, research, and innovation. Located in the picturesque region of Jammu, the institute offers state-of-the-art infrastructure and a vibrant academic environment. With a strong focus on interdisciplinary research and industry collaboration, IIT Jammu is committed to addressing global challenges. Hosting this conference reflects its mission to foster knowledge exchange and technological advancements in the construction domain"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Indian Concrete Institute (ICI)",
+      
+       "description": "The Indian Concrete Institute (ICI) is a premier professional organization in India, dedicated to serving professionals, organizations, and institutions in the field of concrete and related technologies. As a nonprofit entity, ICI focuses on disseminating knowledge and promoting advancements in concrete technology, construction practices, and associated research areas. With a mission to address research needs and foster innovation, ICI boasts a robust network of over 14,500 professional members, 47 regional centers across the country, 380 organizational members, and 297 student chapters. Its membership represents all key segments of the cement and concrete industries, making ICI a comprehensive platform for collaboration and development in the field."
+      
+      
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Jammu and Kashmir",
+      "description": "Jammu and Kashmir, often referred as Paradise on Earth,is renowned for its breathtaking landscapes, including snow-capped mountains, serene lakes, and lush valleys. The region is a hub for tourism, offering attractions like Gulmarg, Dal Lake, and Vaishno Devi, along with vibrant culture and traditional crafts. Its unique blend of natural beauty and heritage makes it a top destination fortravelersworldwide."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Poster Competition",
+      "description": "Participants are invited to showcase their innovative ideas and research findings through a Poster Presentation. The format of the abstract and poster is available on the workshop webpage. During the event, posters will be presented, and the best two posters will be awarded certificates of excellence in recognition of outstanding contributions. This opportunity allows valuable work to be shared and engagement with a vibrant community of experts and peers."
+
+    }
+    
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "App Dashboard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
