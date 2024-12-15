@@ -71,14 +71,14 @@ const MyPortfolio = () => {
         <p>
           <strong>MICR Code:</strong> 180229016
         </p>
-        <div className="qr-section">
+        <div className="qr-section" style={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
           <img
-            src="path/to/qr-code.png"
+            src="./img/ss.png"
             alt="QR Code for Payment"
             className="qr-code"
           />
           <a
-            href="https://eazypay.icicibank.com/eazypaylink"
+            href="https://eazypay.icicibank.com/eazypayLink?P1=DUDm9kHRj2DMTwF3ZfuybQ=="
             className="payment-link"
           >
             Click here to pay
@@ -86,7 +86,7 @@ const MyPortfolio = () => {
         </div>
       </div>
 
-      <div className="committee-section">
+      <div className="committee-section" style={{display:"flex",flexDirection:"column"}}>
         <div className="organising-committee card">
           <h2>Organising Committee</h2>
           <ul>
@@ -112,7 +112,7 @@ const MyPortfolio = () => {
             </li>
             <li>
               <strong>STUDENT COORDINATORS:</strong> Mr. Lalit Singh, Ms. Manali Rathee,
-              Mr. Muzafar Ahmad Ganie, Mr. Sumit Singh Thakur, Rahul Kumar
+              Mr. Muzafar Ahmad Ganie, Mr. Sumit Singh Thakur, Mr. Rahul Kumar
               
             </li>
           </ul>

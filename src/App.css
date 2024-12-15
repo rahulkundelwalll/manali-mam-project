@@ -85,9 +85,9 @@ p {
 
 /* Heading 1 */
 h1 {
-  font-size: 56px;
+  font-size: 30px;
   font-weight: 700;
-  line-height: 67px;
+  /* line-height: 67px; */
 }
 /* Heading 2 */
 h2 {
@@ -289,7 +289,7 @@ h2 {
 /* Skills Section Style */
 .skills--section {
   display: flex;
-  padding: 149.33px 85.33px;
+  padding: 10px 10px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -425,7 +425,7 @@ h2 {
   /* flex-direction: column; */
   align-items: center;
   justify-content: center;
-  margin: 30px;
+  margin-top: 30px;
   gap: 32px;
   /* flex: 1 0 0; */
   border-radius: 10.6px;

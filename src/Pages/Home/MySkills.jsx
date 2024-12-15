@@ -19,7 +19,7 @@ export default function MySkills() {
   return (
     <section className="skills--section" id="mySkills">
       <h1>About</h1>
-      <p style={{fontFamily:'sans-serif',fontSize:"30px",border:"2px solid black",padding:"20px",borderRadius:"10px",backgroundColor :"#ffffff "}}>The <strong> International Workshop on Sustainable Materials and Construction </strong>serves as a platform for researchers,
+      <p style={{fontFamily:'sans-serif',fontSize:"20px",border:"2px solid black",padding:"5px",borderRadius:"10px",backgroundColor :"#f5fcff"}}>The <strong> International Workshop on Sustainable Materials and Construction </strong>serves as a platform for researchers,
 industry professionals, and practitioners to drive progress in sustainable construction. This event offers an engaging
 forum to explore cutting-edge advancements in eco-friendly materials, energy-efficient technologies, and
 innovative design approaches. Participants can exchange knowledge, present groundbreaking solutions, and build
