@@ -300,7 +300,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 106.667px;
+  /* gap: 106.667px; */
 }
 .skills--section--heading {
   color: var(--heading-color);

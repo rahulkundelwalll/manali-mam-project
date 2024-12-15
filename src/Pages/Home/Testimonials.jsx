@@ -4,7 +4,7 @@ export default function Testimonial() {
   return (
     <section>
      <div>
-      <h1 style={{paddingTop:"20px"}}>Organizer</h1>
+      <h1 style={{paddingTop:"20px",display:"flex",justifyContent:"center"}}>Organizer</h1>
          <div className="horizontal--images8374">
         <img
           src="./img/Screenshot 2024-12-15 140150.png"
@@ -27,6 +27,7 @@ export default function Testimonial() {
         Venue: IIT JAMMU
       </p> 
     </div>
+    <h1 style={{paddingTop:"20px",display:"flex",justifyContent:"center"}}>About</h1>
     </section>
   );
 }
