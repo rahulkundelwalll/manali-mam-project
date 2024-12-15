@@ -2,24 +2,24 @@ import data from "../../data/index.json";
 
 export default function MySkills() {
   const themes = [
-    "-->  Innovative Materials and Construction Techniques",
-    "-->  Advanced cementitious material for durability",
-    "-->  Advanced Testing Techniques for Materials and Structures",
-    "-->  Sustainable and Green Infrastructure",
-    "-->  Tunneling and High-speed Rails",
-    "-->  High Performance Concrete",
-    "-->  Service life and life cycle assessment",
-    "-->  Nanotechnology in Concrete and Construction",
-    "-->  Valorization/ Bio-remediation of construction based materials",
-    "-->  Resource, conservation and recycling",
-    "-->  Sustainable Environment Management",
-    "-->  Corrosion Monitoring and Mitigation"
+    "1.  Innovative Materials and Construction Techniques",
+    "2.  Advanced cementitious material for durability",
+    "3.  Advanced Testing Techniques for Materials and Structures",
+    "4.  Sustainable and Green Infrastructure",
+    "5.  Tunneling and High-speed Rails",
+    "6.  High Performance Concrete",
+    "7.  Service life and life cycle assessment",
+    "8.  Nanotechnology in Concrete and Construction",
+    "9.  Valorization/ Bio-remediation of construction based materials",
+    "10.  Resource, conservation and recycling",
+    "11.  Sustainable Environment Management",
+    "12. Corrosion Monitoring and Mitigation"
   ];
 
   return (
     <section className="skills--section" id="mySkills">
       <h1>About</h1>
-      <p style={{fontFamily:'sans-serif',fontSize:"20px",border:"2px solid black",padding:"5px",borderRadius:"10px",backgroundColor :"#f5fcff"}}>The <strong> International Workshop on Sustainable Materials and Construction </strong>serves as a platform for researchers,
+      <p style={{fontFamily:'sans-serif',fontSize:"20px",boxShadow: "5px 10px 15px 20px rgba(0, 0, 0, 0.1)",padding:"5px",borderRadius:"10px",backgroundColor :"#f5fcff"}}>The <strong> International Workshop on Sustainable Materials and Construction </strong>serves as a platform for researchers,
 industry professionals, and practitioners to drive progress in sustainable construction. This event offers an engaging
 forum to explore cutting-edge advancements in eco-friendly materials, energy-efficient technologies, and
 innovative design approaches. Participants can exchange knowledge, present groundbreaking solutions, and build
@@ -34,17 +34,21 @@ sustainable and inclusive built environment that balances environmental, social,
             <div className="skills--section--card--content">
               <h3 className="skills--section--title">{item.title}</h3>
               <p className="skills--section--description">{item.description}</p>
+              <hr />
             </div>
           </div>
         ))}
 
-        <div className="skills--section--side-by-side">
+        <div className="skills--section--side-by-side" style={{padding:"20px"}}>
           {/* Themes container */}
           <div className="skills--section--themes">
             <h3 className="skills--section--title">Themes</h3>
             <ul className="skills--section--theme-list">
               {themes.map((theme, index) => (
+                <div>
                 <li key={index} className="skills--section--theme-item">{theme}</li>
+                {/* <hr /> */}
+                </div>
               ))}
             </ul>
           </div>

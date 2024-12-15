@@ -85,7 +85,7 @@ p {
 
 /* Heading 1 */
 h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
   /* line-height: 67px; */
 }
@@ -151,6 +151,13 @@ h2 {
   justify-content: center; /* Center-aligns the images */
   gap: 20px; /* Adds spacing between images */
   margin-top: 20px; /* Adds spacing above the image section */
+}
+.horizontal--images8374 {
+  display: flex; /* Makes the images align horizontally */
+  justify-content: center; /* Center-aligns the images */
+  gap: 20px; /* Adds spacing between images */
+  margin-top: 20px; /* Adds spacing above the image section */
+  flex-wrap: wrap;
 }
 
 .horizontal--images img {
@@ -239,7 +246,7 @@ h2 {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  padding: 133.333px 85.333px 0px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -313,7 +320,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .skills--section--themes,
